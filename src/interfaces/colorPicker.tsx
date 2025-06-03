@@ -82,7 +82,7 @@ export interface IDropdownColorMenu {
 
 export interface IColorDropdownWrapper {
   colors: Array<Color>
-  isOpen: Boolean
+  isOpen: boolean
   toggleDropdown: Function
   handleChangeColor: Function
 }
